@@ -1,3 +1,7 @@
+'''
+ You have performed a syntax parsing analysis on a novel and gained insight into both the meaning of the text and how the author thinks, without reading a page!
+ '''
+
 from nltk import pos_tag, RegexpParser
 from tokenize_words import word_sentence_tokenize
 from chunk_counters import np_chunk_counter, vp_chunk_counter
